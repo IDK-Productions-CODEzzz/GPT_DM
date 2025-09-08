@@ -1,0 +1,255 @@
+{
+  "Planets": {
+    "Virella": {
+      "Role": "Home of the Dawnbound Creed",
+      "Inhabitants": "All major species",
+      "Political Alignment": "Independent religious theocracy",
+      "Notes": "Strict spiritual order, highly militarized channeler training"
+    },
+    "Sersai": {
+      "Role": "Home of the Arcanum of the Veil",
+      "Inhabitants": "All major species",
+      "Political Alignment": "Independent religious theocracy",
+      "Notes": "Espouses individual enlightenment through the Entity, in constant ideological conflict with Virella"
+    },
+    "Nuvia": {
+      "Role": "Trade-focused capitalist republic",
+      "Inhabitants": "All species",
+      "Political Alignment": "Coalition Member",
+      "Notes": "Acts as neutral economic power, major trading hub"
+    },
+    "Dravon": {
+      "Role": "Divided war-world",
+      "Inhabitants": "Giantfolk (surface), Delverkin (underground)",
+      "Political Alignment": "Coalition Member",
+      "Notes": "Internal civil war, holds 4 council seats (2 each side)"
+    },
+    "Takkir": {
+      "Role": "Recently revealed Zai'kir hive world",
+      "Inhabitants": "Zai\u2019kir only (insectoid)",
+      "Political Alignment": "New Coalition Member",
+      "Notes": "Strange culture, a splinter hive has formed a religious faction tied to the Entity"
+    }
+  },
+
+  "Religions_and_Factions": {
+    "Dawnbound Creed": {
+      "Belief": "The Entity is divine structure, best used in unity and discipline",
+      "Traits": "Radiance, order, martial virtue",
+      "Planet": "Virella"
+    },
+    "Arcanum of the Veil": {
+      "Belief": "The Entity is personal, mysterious, and best explored individually",
+      "Traits": "Dreams, psionics, mystery",
+      "Planet": "Sersai"
+    },
+    "Coalition of Three": {
+      "Members": [
+        "Nuvia",
+        "Dravon",
+        "Takkir"
+      ],
+      "Purpose": "Mutual defense, economic unity, limiting religious war escalation"
+    },
+    "Zai'kir Cell": {
+      "Status": "Unclaimed by either major order",
+      "Belief": "The Entity is a unifying psychic song",
+      "Planet": "Takkir"
+    }
+  },
+
+  "Historical_Conflicts": {
+    "Age of Awakening": {
+      "Event": "First channelers appear; religious divisions form",
+      "Notable": "Sixth planet destroyed by Arcanum mystic in final battle",
+      "Result": "Both Orders scarred; limits of Entity-channelling realized"
+    }
+  },
+
+  "Technology_and_Channeling": {
+    "Technology Level": {
+      "General": "Slightly above modern Earth",
+      "Key Features": [
+        "Jetpacks",
+        "Powered armor",
+        "Energy weapons",
+        "Basic space travel"
+      ]
+    },
+    "Entity Use": {
+      "Population": "Approx. 1 million users among trillions",
+      "Abilities": [
+        "Flight",
+        "Teleportation",
+        "Mass manipulation",
+        "Psionic control",
+        "Radiant weapons"
+      ],
+      "Rarity": "Extremely rare, highly trained or chosen"
+    },
+    "Training Systems": {
+      "Dawnbound": "Martial discipline, radiant focus",
+      "Arcanum": "Dreamwalking, emotion and memory control",
+      "Other Worlds": "Some local traditions exist, mostly martial or espionage-based"
+    }
+  },
+
+  "Species_and_Sapient_Life": {
+    "Humans": "Most populous species; adaptable and politically diverse",
+    "Giantfolk": "Towering humanoids, live on surface of Dravon",
+    "Delverkin": "Subterranean humanoids with echo-based senses and culture",
+    "Zai'kir": "Insectoid species, hive-based with psionic queens",
+    "Ratfolk": "Scavenger-like, specialize in tech repair and salvage"
+  },
+
+  "Everyday_Life": {
+    "Virella": "Structured, militarized, spiritual pilgrimage sites common",
+    "Sersai": "Dream temples, decentralized communes, shadow markets",
+    "Nuvia": "Corporate megacities, cyber fashion, constant trade",
+    "Dravon": {
+      "Giantfolk": "Tribal fortresses, honor-based societies",
+      "Delverkin": "Underground cities, secrecy and stealth norms"
+    },
+    "Takkir": "Hive cities, pheromonal communication zones, psychic relay towers"
+  },
+
+  "Space_Stations_and_Trade": {
+    "Spacestations": [
+      "Relay Spires \u2013 Military & cargo stops between planets",
+      "Ghost Arcs \u2013 Abandoned or pirate-claimed trade hubs",
+      "Solar Netway \u2013 Dawnbound\u2019s communication and energy web",
+      "The Spindle \u2013 Coalition HQ and diplomacy nexus"
+    ]
+  },
+
+  "Mythic_and_Living_Legends": {
+    "Mythic Heroes": {
+      "Dawnbound": "Eidon the Blazing, Entity-wielder who died ending the Age of Awakening",
+      "Arcanum": "Kelyx the Silent, whose dreamwalker spirit is said to still influence minds",
+      "Zai'kir": "Zithyr Queen Eternal, mythical Zai\u2019kir that whispered the first command",
+      "Dravon": "Torrok & Sevrak, sibling warriors that split the planet in half",
+      "Nuvia": "The Gilded Trickster, founder of the first interplanetary black market"
+    },
+    "Living Legends": {
+      "Virella": "Lady Calyra the Silver Flame",
+      "Sersai": "Syra the Dreamweaver",
+      "Nuvia": "Selira Ghostblade",
+      "Dravon": [
+        "King Gorrath",
+        "Sevrin of the Thousand Echoes"
+      ],
+      "Takkir": "Queen Ithara of the Broken Chorus",
+      "Ashen Circle": "The Shepherd",
+      "Fangspire Company": "Lucien Vale"
+    }
+  },
+
+  "Warfare_and_Conflict": {
+    "Common Conflicts": [
+      "Resource raiding",
+      "Orbital skirmishes",
+      "Religious proxy wars",
+      "Political sabotage"
+    ],
+    "Major Flashpoints": [
+      "Dravon civil war",
+      "Zai\u2019kir independence",
+      "Religious cold war between Dawnbound and Arcanum"
+    ],
+    "Notable Groups": {
+      "Ashen_Circle": "Psychopathic rogue Channelers controlled by a manipulator known as The Shepherd",
+      "Veilbreakers": "Mysterious, unaffiliated Channeler-hunters feared across all planets",
+      "Fangspire Company": "Mercenary army led by Lucien Vale, unaffiliated but deeply influential"
+    }
+  },
+  "D10_System": {
+
+  },
+
+  "Racial_Card_Options": {
+    "Human": {
+        "Homeworlds": [
+            "Virella", "Nuvia", "Coalition Worlds"
+        ],
+        "Stat_Bonus": "+1 to any stat",
+        "Racial_Traits": [
+            "Recognized and respected across most interplanetary alliances",
+            "Naturally versatile - +1 to all mental checks"
+        ],
+        "Compatible Background_Card_Options": [
+            "May choose **any** non-race-locked Background_Card_Option"
+        ]
+    },
+    "Delverkin": {
+        "Homeworlds": [
+            "Sersai (Subterranean)", 
+            "Dravon (Subsurface)"
+        ],
+        "Stat_Bonus": "+1 Mental or Willpower",
+        "Racial_Traits": [
+              "Darkvision (excellent subterranean navigation)",
+              "Affinity for secret paths and hidden knowledge - +1 to mental checks for finding hidden things and for technology checks",
+              "Disliked by Giantfolk"
+        ],
+        "Compatible Background_Card_Options": [
+            "Delverkin Shadow Broker",
+            "Novice Mercenary",
+            "Coalition Drifter",
+            "Nuvian Tech Apostle",
+            "Veil-Walker Novitiate"
+        ]
+    },
+    "Giantfolk": {
+        "Homeworlds": [
+            "Dravon (Surface)"
+        ],
+        "Stat_Bonus": "+1 Physical",
+        "Racial_Traits": [
+            "Resistant to cold and environmental hazards",
+            "Giantsized - +1 to all physical checks related to strength",
+            "Disliked by Delverkin"
+        ],
+        "Compatible Background_Card_Options": [
+            "Dravonic Warborn",
+            "Novice Mercenary",
+            "Coalition Drifter",
+            "Nuvian Tech Apostle",
+            "Dawnbound Acolyte"
+        ]
+    },
+    "Zai\u2019kir": {
+        "Homeworlds": [
+            "Takkir (Hive Jungle World)"
+        ],
+        "Stat_Bonus": "+1 Mental or Willpower",
+        "Racial_Traits": [
+            "Resistant to charm, fear, or domination effects - +1 to all checks against being panicked or stunned",
+            "Disliked by Humans, Delverkin, and Giantfolk"
+        ],
+        "Compatible Background_Card_Options": [
+            "Brood-Shard",
+            "Coalition Drifter",
+            "Novice Mercenary"
+        ]
+    },
+    "Ratfolk": {
+        "Homeworlds": [
+            "Any world except Takkir (Nomadic)"
+        ],
+        "Stat_Bonus": "+1 to any stat",
+        "Racial_Traits": [
+            "Darkvision",
+            "Natural resistance to toxins/disease - +1 to any saves against the corruption damage type",
+            "Can squeeze through tight spaces and evade grapples - +1 to physical checks to evade grapples and perform acrobatics",
+            "Disliked by Delverkin and Zai\u2019kir"
+        ],
+        "Compatible Background_Card_Options": [
+            "May choose **any** non-race-locked Background_Card_Option"
+        ]
+    }
+  },
+
+  "Background_Card_Options": {
+
+  }
+}
