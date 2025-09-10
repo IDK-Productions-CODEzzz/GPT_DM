@@ -62,7 +62,7 @@ You were raised among towering mountains and ancestral battlefields where combat
 
 ## 🌞 Dawnbound Acolyte  
 **Stat Bonus:** +1 Mental or Willpower  
-You were tutored by the Dawnbound Creed on Virella, taught to seek light in all things — even if others call it blind idealism. You believe truth shapes reality.  
+Description: You were tutored by the Dawnbound Creed on Virella, taught to seek light in all things — even if others call it blind idealism. You believe truth shapes reality.  
 **Connection:** *Speaker Marrek Vos*, a Dawnbound emissary with Coalition political clout who may protect or guide you in times of crisis.
 
 ---
