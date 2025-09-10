@@ -162,8 +162,105 @@
       "Fangspire Company": "Mercenary army led by Lucien Vale, unaffiliated but deeply influential"
     }
   },
-  "D10_System": {
 
+  "D10_System": {
+    "Stats": {
+      "Physical": {
+        "Description": "Strength, agility, endurance, direct combat.",
+        "Abbreviation": "PHY"
+      },
+      "Mental": {
+        "Description": "Perception, intelligence, planning, technical skill.",
+        "Abbreviation": "MEN"
+      },
+      "Willpower": {
+        "Description": "Determination, resilience, grit.",
+        "Abbreviation": "WIL"
+      },
+      "Scale": "0-10",
+      "Creation_Cap": "Stats may not start higher than 5 without special rules."
+    },
+    "Health": {
+      "Abbreviation": "HP",
+      "Starting_Restriction": "Characters start with 10 HP unless modified.",
+      "At_0_HP": "Character is incapacitated and vulnerable to lasting harm or death (GM discretion)."
+    },
+    "Initiative": {
+      "Roll": "D10 + Physical + Mental",
+      "Tiebreaker": "Higher Willpower acts first → if still tied, re-roll."
+    },
+    "Attack": {
+      "Roll": "d10 + relevant stat + modifiers",
+      "Difficulty_To_Hit": {
+        "Abbreviation": "DTH",
+        "Formula": "5 + target’s Level + gear/stat bonuses + situational modifiers"
+      }
+    },
+    "Damage": {
+      "Sources": [
+        "Unarmed",
+        "Basic melee",
+        "Basic ranged",
+        "Gun",
+        "Explosive"
+      ]
+    },
+    "Damage_Types": {
+      "Physical": "Blunt, slash, pierce. May cause Bleeding.",
+      "Elemental": "Fire, cold, lightning, acid, sonic, etc.",
+      "Corruption": "Poison, disease, decay, curses."
+    },
+    "Conditions": {
+      "Panic": "Disadvantage on fear/social rolls.",
+      "Stunned": "Lose Action; -1 DTH until next turn.",
+      "Restrained": "Speed 0, disadvantage on Physical rolls, +1 to be hit in melee.",
+      "Blinded": "Disadvantage on attacks, attackers +1 to hit, auto-fail sight checks.",
+      "Slowed": "Half speed, no reactions.",
+      "Afflicted": {
+        "Description": "Ongoing damage each round until cured.",
+        "Types": {
+          "Physical": "Bleeding",
+          "Elemental": "Burning",
+          "Corruption": "Poisoned"
+        }
+      }
+    },
+    "Saves": {
+      "Formula": "d10 + relevant stat",
+      "Standard_DC": "8 + source’s Level",
+      "On_Success": "Negate/reduce/clear effect.",
+      "On_Failure": "Effect applies or continues."
+    },
+    "Resistance_And_Vulnerabilities": {
+      "Resistance": "Half damage (round to nearest, min 1).",
+      "Vulnerability": "×1.5 damage (round to nearest).",
+      "Immunity": "No damage."
+    },
+    "Turn_Structure": {
+      "Each_Round": {
+        "1": "Act in initiative order.",
+        "2": {
+          "On_Your_Turn": [
+            "1 Action (attack, ability, interact).",
+            "1 Move.",
+            "Free actions as permitted."
+          ]
+        },
+        "3": "Resolve ongoing effects at end of turn."
+      }
+    },
+    "DM_Difficulty_Scaling": [
+      "Raise enemy **Level** to increase DTH and save DCs.",
+      "Adjust stats, resistances, gear.",
+      "Use terrain, cover, and conditions for variety instead of just higher numbers."
+    ],
+    "Dice_Rules": {
+      "Die": "D10",
+      "Advantage": "Roll 2d10, take higher.",
+      "Disadvantage": "Roll 2d10, take lower.",
+      "Critical_Success": "Nat 10 = hit + extra effect.",
+      "Fumble": "Nat 1 = fail + complication."
+    }
   },
 
   "Racial_Card_Options": {
