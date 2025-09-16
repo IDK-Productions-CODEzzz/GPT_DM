@@ -1,165 +1,159 @@
 {
-  "Planets": {
-    "Virella": {
-      "Role": "Home of the Dawnbound Creed",
-      "Inhabitants": "All major species",
-      "Political Alignment": "Independent religious theocracy",
-      "Notes": "Strict spiritual order, highly militarized channeler training"
+  "Lorebook": {
+    "Planets": {
+      "Virella": {
+        "Role": "Home of the Dawnbound Creed",
+        "Inhabitants": "All major species",
+        "Political Alignment": "Independent religious theocracy",
+        "Notes": "Strict spiritual order, highly militarized channeler training"
+      },
+      "Sersai": {
+        "Role": "Home of the Arcanum of the Veil",
+        "Inhabitants": "All major species",
+        "Political Alignment": "Independent religious theocracy",
+        "Notes": "Espouses individual enlightenment through the Entity, in constant ideological conflict with Virella"
+      },
+      "Nuvia": {
+        "Role": "Trade-focused capitalist republic",
+        "Inhabitants": "All species",
+        "Political Alignment": "Coalition Member",
+        "Notes": "Acts as neutral economic power, major trading hub"
+      },
+      "Dravon": {
+        "Role": "Divided war-world",
+        "Inhabitants": "Giantfolk (surface), Delverkin (underground)",
+        "Political Alignment": "Coalition Member",
+        "Notes": "Internal civil war, holds 4 council seats (2 each side)"
+      },
+      "Takkir": {
+        "Role": "Recently revealed Zai'kir hive world",
+        "Inhabitants": "Zai\u2019kir only (insectoid)",
+        "Political Alignment": "New Coalition Member",
+        "Notes": "Strange culture, a splinter hive has formed a religious faction tied to the Entity"
+      }
     },
-    "Sersai": {
-      "Role": "Home of the Arcanum of the Veil",
-      "Inhabitants": "All major species",
-      "Political Alignment": "Independent religious theocracy",
-      "Notes": "Espouses individual enlightenment through the Entity, in constant ideological conflict with Virella"
+    "Religions_and_Factions": {
+      "Dawnbound Creed": {
+        "Belief": "The Entity is divine structure, best used in unity and discipline",
+        "Traits": "Radiance, order, martial virtue",
+        "Planet": "Virella"
+      },
+      "Arcanum of the Veil": {
+        "Belief": "The Entity is personal, mysterious, and best explored individually",
+        "Traits": "Dreams, psionics, mystery",
+        "Planet": "Sersai"
+      },
+      "Coalition of Three": {
+        "Members": [
+          "Nuvia",
+          "Dravon",
+          "Takkir"
+        ],
+        "Purpose": "Mutual defense, economic unity, limiting religious war escalation"
+      },
+      "Zai'kir Cell": {
+        "Status": "Unclaimed by either major order",
+        "Belief": "The Entity is a unifying psychic song",
+        "Planet": "Takkir"
+      }
     },
-    "Nuvia": {
-      "Role": "Trade-focused capitalist republic",
-      "Inhabitants": "All species",
-      "Political Alignment": "Coalition Member",
-      "Notes": "Acts as neutral economic power, major trading hub"
+    "Historical_Conflicts": {
+      "Age of Awakening": {
+        "Event": "First channelers appear; religious divisions form",
+        "Notable": "Sixth planet destroyed by Arcanum mystic in final battle",
+        "Result": "Both Orders scarred; limits of Entity-channelling realized"
+      }
     },
-    "Dravon": {
-      "Role": "Divided war-world",
-      "Inhabitants": "Giantfolk (surface), Delverkin (underground)",
-      "Political Alignment": "Coalition Member",
-      "Notes": "Internal civil war, holds 4 council seats (2 each side)"
+    "Technology_and_Channeling": {
+      "Technology Level": {
+        "General": "Slightly above modern Earth",
+        "Key Features": [
+          "Jetpacks",
+          "Powered armor",
+          "Energy weapons",
+          "Basic space travel"
+        ]
+      },
+      "Entity Use": {
+        "Population": "Approx. 1 million users among trillions",
+        "Abilities": [
+          "Flight",
+          "Teleportation",
+          "Mass manipulation",
+          "Psionic control",
+          "Radiant weapons"
+        ],
+        "Rarity": "Extremely rare, highly trained or chosen"
+      },
+      "Training Systems": {
+        "Dawnbound": "Martial discipline, radiant focus",
+        "Arcanum": "Dreamwalking, emotion and memory control",
+        "Other Worlds": "Some local traditions exist, mostly martial or espionage-based"
+      }
     },
-    "Takkir": {
-      "Role": "Recently revealed Zai'kir hive world",
-      "Inhabitants": "Zai\u2019kir only (insectoid)",
-      "Political Alignment": "New Coalition Member",
-      "Notes": "Strange culture, a splinter hive has formed a religious faction tied to the Entity"
-    }
-  },
-
-  "Religions_and_Factions": {
-    "Dawnbound Creed": {
-      "Belief": "The Entity is divine structure, best used in unity and discipline",
-      "Traits": "Radiance, order, martial virtue",
-      "Planet": "Virella"
+    "Species_and_Sapient_Life": {
+      "Humans": "Most populous species; adaptable and politically diverse",
+      "Giantfolk": "Towering humanoids, live on surface of Dravon",
+      "Delverkin": "Subterranean humanoids with echo-based senses and culture",
+      "Zai'kir": "Insectoid species, hive-based with psionic queens",
+      "Ratfolk": "Scavenger-like, specialize in tech repair and salvage"
     },
-    "Arcanum of the Veil": {
-      "Belief": "The Entity is personal, mysterious, and best explored individually",
-      "Traits": "Dreams, psionics, mystery",
-      "Planet": "Sersai"
+    "Everyday_Life": {
+      "Virella": "Structured, militarized, spiritual pilgrimage sites common",
+      "Sersai": "Dream temples, decentralized communes, shadow markets",
+      "Nuvia": "Corporate megacities, cyber fashion, constant trade",
+      "Dravon": {
+        "Giantfolk": "Tribal fortresses, honor-based societies",
+        "Delverkin": "Underground cities, secrecy and stealth norms"
+      },
+      "Takkir": "Hive cities, pheromonal communication zones, psychic relay towers"
     },
-    "Coalition of Three": {
-      "Members": [
-        "Nuvia",
-        "Dravon",
-        "Takkir"
-      ],
-      "Purpose": "Mutual defense, economic unity, limiting religious war escalation"
-    },
-    "Zai'kir Cell": {
-      "Status": "Unclaimed by either major order",
-      "Belief": "The Entity is a unifying psychic song",
-      "Planet": "Takkir"
-    }
-  },
-
-  "Historical_Conflicts": {
-    "Age of Awakening": {
-      "Event": "First channelers appear; religious divisions form",
-      "Notable": "Sixth planet destroyed by Arcanum mystic in final battle",
-      "Result": "Both Orders scarred; limits of Entity-channelling realized"
-    }
-  },
-
-  "Technology_and_Channeling": {
-    "Technology Level": {
-      "General": "Slightly above modern Earth",
-      "Key Features": [
-        "Jetpacks",
-        "Powered armor",
-        "Energy weapons",
-        "Basic space travel"
+    "Space_Stations_and_Trade": {
+      "Spacestations": [
+        "Relay Spires \u2013 Military & cargo stops between planets",
+        "Ghost Arcs \u2013 Abandoned or pirate-claimed trade hubs",
+        "Solar Netway \u2013 Dawnbound\u2019s communication and energy web",
+        "The Spindle \u2013 Coalition HQ and diplomacy nexus"
       ]
     },
-    "Entity Use": {
-      "Population": "Approx. 1 million users among trillions",
-      "Abilities": [
-        "Flight",
-        "Teleportation",
-        "Mass manipulation",
-        "Psionic control",
-        "Radiant weapons"
+    "Mythic_and_Living_Legends": {
+      "Mythic Heroes": {
+        "Dawnbound": "Eidon the Blazing, Entity-wielder who died ending the Age of Awakening",
+        "Arcanum": "Kelyx the Silent, whose dreamwalker spirit is said to still influence minds",
+        "Zai'kir": "Zithyr Queen Eternal, mythical Zai\u2019kir that whispered the first command",
+        "Dravon": "Torrok & Sevrak, sibling warriors that split the planet in half",
+        "Nuvia": "The Gilded Trickster, founder of the first interplanetary black market"
+      },
+      "Living Legends": {
+        "Virella": "Lady Calyra the Silver Flame",
+        "Sersai": "Syra the Dreamweaver",
+        "Nuvia": "Selira Ghostblade",
+        "Dravon": [
+          "King Gorrath",
+          "Sevrin of the Thousand Echoes"
+        ],
+        "Takkir": "Queen Ithara of the Broken Chorus",
+        "Ashen Circle": "The Shepherd",
+        "Fangspire Company": "Lucien Vale"
+      }
+    },
+    "Warfare_and_Conflict": {
+      "Common Conflicts": [
+        "Resource raiding",
+        "Orbital skirmishes",
+        "Religious proxy wars",
+        "Political sabotage"
       ],
-      "Rarity": "Extremely rare, highly trained or chosen"
-    },
-    "Training Systems": {
-      "Dawnbound": "Martial discipline, radiant focus",
-      "Arcanum": "Dreamwalking, emotion and memory control",
-      "Other Worlds": "Some local traditions exist, mostly martial or espionage-based"
-    }
-  },
-
-  "Species_and_Sapient_Life": {
-    "Humans": "Most populous species; adaptable and politically diverse",
-    "Giantfolk": "Towering humanoids, live on surface of Dravon",
-    "Delverkin": "Subterranean humanoids with echo-based senses and culture",
-    "Zai'kir": "Insectoid species, hive-based with psionic queens",
-    "Ratfolk": "Scavenger-like, specialize in tech repair and salvage"
-  },
-
-  "Everyday_Life": {
-    "Virella": "Structured, militarized, spiritual pilgrimage sites common",
-    "Sersai": "Dream temples, decentralized communes, shadow markets",
-    "Nuvia": "Corporate megacities, cyber fashion, constant trade",
-    "Dravon": {
-      "Giantfolk": "Tribal fortresses, honor-based societies",
-      "Delverkin": "Underground cities, secrecy and stealth norms"
-    },
-    "Takkir": "Hive cities, pheromonal communication zones, psychic relay towers"
-  },
-
-  "Space_Stations_and_Trade": {
-    "Spacestations": [
-      "Relay Spires \u2013 Military & cargo stops between planets",
-      "Ghost Arcs \u2013 Abandoned or pirate-claimed trade hubs",
-      "Solar Netway \u2013 Dawnbound\u2019s communication and energy web",
-      "The Spindle \u2013 Coalition HQ and diplomacy nexus"
-    ]
-  },
-
-  "Mythic_and_Living_Legends": {
-    "Mythic Heroes": {
-      "Dawnbound": "Eidon the Blazing, Entity-wielder who died ending the Age of Awakening",
-      "Arcanum": "Kelyx the Silent, whose dreamwalker spirit is said to still influence minds",
-      "Zai'kir": "Zithyr Queen Eternal, mythical Zai\u2019kir that whispered the first command",
-      "Dravon": "Torrok & Sevrak, sibling warriors that split the planet in half",
-      "Nuvia": "The Gilded Trickster, founder of the first interplanetary black market"
-    },
-    "Living Legends": {
-      "Virella": "Lady Calyra the Silver Flame",
-      "Sersai": "Syra the Dreamweaver",
-      "Nuvia": "Selira Ghostblade",
-      "Dravon": [
-        "King Gorrath",
-        "Sevrin of the Thousand Echoes"
+      "Major Flashpoints": [
+        "Dravon civil war",
+        "Zai\u2019kir independence",
+        "Religious cold war between Dawnbound and Arcanum"
       ],
-      "Takkir": "Queen Ithara of the Broken Chorus",
-      "Ashen Circle": "The Shepherd",
-      "Fangspire Company": "Lucien Vale"
-    }
-  },
-
-  "Warfare_and_Conflict": {
-    "Common Conflicts": [
-      "Resource raiding",
-      "Orbital skirmishes",
-      "Religious proxy wars",
-      "Political sabotage"
-    ],
-    "Major Flashpoints": [
-      "Dravon civil war",
-      "Zai\u2019kir independence",
-      "Religious cold war between Dawnbound and Arcanum"
-    ],
-    "Notable Groups": {
-      "Ashen_Circle": "Psychopathic rogue Channelers controlled by a manipulator known as The Shepherd",
-      "Veilbreakers": "Mysterious, unaffiliated Channeler-hunters feared across all planets",
-      "Fangspire Company": "Mercenary army led by Lucien Vale, unaffiliated but deeply influential"
+      "Notable Groups": {
+        "Ashen_Circle": "Psychopathic rogue Channelers controlled by a manipulator known as The Shepherd",
+        "Veilbreakers": "Mysterious, unaffiliated Channeler-hunters feared across all planets",
+        "Fangspire Company": "Mercenary army led by Lucien Vale, unaffiliated but deeply influential"
+      }
     }
   },
 
@@ -263,186 +257,188 @@
     }
   },
 
-  "Racial_Card_Options": {
-    "Human": {
-        "Homeworlds": [
-            "Virella", "Nuvia", "Coalition Worlds"
-        ],
-        "Stat_Bonus": "+1 to any stat",
-        "Racial_Traits": [
-            "Recognized and respected across most interplanetary alliances",
-            "Naturally versatile - +1 to all mental checks"
-        ],
-        "Compatible Background_Card_Options": [
-            "May choose **any** non-race-locked Background_Card_Option"
-        ]
+  "Character_Creation": {
+    "Racial_Card_Options": {
+      "Human": {
+          "Homeworlds": [
+              "Virella", "Nuvia", "Coalition Worlds"
+          ],
+          "Stat_Bonus": "+1 to any stat",
+          "Racial_Traits": [
+              "Recognized and respected across most interplanetary alliances",
+              "Naturally versatile - +1 to all mental checks"
+          ],
+          "Compatible Background_Card_Options": [
+              "May choose **any** non-race-locked Background_Card_Option"
+          ]
+      },
+      "Delverkin": {
+          "Homeworlds": [
+              "Sersai (Subterranean)", 
+              "Dravon (Subsurface)"
+          ],
+          "Stat_Bonus": "+1 Mental or Willpower",
+          "Racial_Traits": [
+                "Darkvision (excellent subterranean navigation)",
+                "Affinity for secret paths and hidden knowledge - +1 to mental checks for finding hidden things and for technology checks",
+                "Disliked by Giantfolk"
+          ],
+          "Compatible Background_Card_Options": [
+              "Delverkin Shadow Broker",
+              "Novice Mercenary",
+              "Coalition Drifter",
+              "Nuvian Tech Apostle",
+              "Veil-Walker Novitiate"
+          ]
+      },
+      "Giantfolk": {
+          "Homeworlds": [
+              "Dravon (Surface)"
+          ],
+          "Stat_Bonus": "+1 Physical",
+          "Racial_Traits": [
+              "Resistant to cold and environmental hazards",
+              "Giantsized - +1 to all physical checks related to strength",
+              "Disliked by Delverkin"
+          ],
+          "Compatible Background_Card_Options": [
+              "Dravonic Warborn",
+              "Novice Mercenary",
+              "Coalition Drifter",
+              "Nuvian Tech Apostle",
+              "Dawnbound Acolyte"
+          ]
+      },
+      "Zai\u2019kir": {
+          "Homeworlds": [
+              "Takkir (Hive Jungle World)"
+          ],
+          "Stat_Bonus": "+1 Mental or Willpower",
+          "Racial_Traits": [
+              "Resistant to charm, fear, or domination effects - +1 to all checks against being panicked or stunned",
+              "Disliked by Humans, Delverkin, and Giantfolk"
+          ],
+          "Compatible Background_Card_Options": [
+              "Brood-Shard",
+              "Coalition Drifter",
+              "Novice Mercenary"
+          ]
+      },
+      "Ratfolk": {
+          "Homeworlds": [
+              "Any world except Takkir (Nomadic)"
+          ],
+          "Stat_Bonus": "+1 to any stat",
+          "Racial_Traits": [
+              "Darkvision",
+              "Natural resistance to toxins/disease - +1 to any saves against the corruption damage type",
+              "Can squeeze through tight spaces and evade grapples - +1 to physical checks to evade grapples and perform acrobatics",
+              "Disliked by Delverkin and Zai\u2019kir"
+          ],
+          "Compatible Background_Card_Options": [
+              "May choose **any** non-race-locked Background_Card_Option"
+          ]
+      }
     },
-    "Delverkin": {
-        "Homeworlds": [
-            "Sersai (Subterranean)", 
-            "Dravon (Subsurface)"
-        ],
-        "Stat_Bonus": "+1 Mental or Willpower",
-        "Racial_Traits": [
-              "Darkvision (excellent subterranean navigation)",
-              "Affinity for secret paths and hidden knowledge - +1 to mental checks for finding hidden things and for technology checks",
-              "Disliked by Giantfolk"
-        ],
-        "Compatible Background_Card_Options": [
-            "Delverkin Shadow Broker",
-            "Novice Mercenary",
-            "Coalition Drifter",
-            "Nuvian Tech Apostle",
-            "Veil-Walker Novitiate"
-        ]
-    },
-    "Giantfolk": {
-        "Homeworlds": [
-            "Dravon (Surface)"
-        ],
-        "Stat_Bonus": "+1 Physical",
-        "Racial_Traits": [
-            "Resistant to cold and environmental hazards",
-            "Giantsized - +1 to all physical checks related to strength",
-            "Disliked by Delverkin"
-        ],
-        "Compatible Background_Card_Options": [
-            "Dravonic Warborn",
-            "Novice Mercenary",
-            "Coalition Drifter",
-            "Nuvian Tech Apostle",
-            "Dawnbound Acolyte"
-        ]
-    },
-    "Zai\u2019kir": {
-        "Homeworlds": [
-            "Takkir (Hive Jungle World)"
-        ],
-        "Stat_Bonus": "+1 Mental or Willpower",
-        "Racial_Traits": [
-            "Resistant to charm, fear, or domination effects - +1 to all checks against being panicked or stunned",
-            "Disliked by Humans, Delverkin, and Giantfolk"
-        ],
-        "Compatible Background_Card_Options": [
-            "Brood-Shard",
-            "Coalition Drifter",
-            "Novice Mercenary"
-        ]
-    },
-    "Ratfolk": {
-        "Homeworlds": [
-            "Any world except Takkir (Nomadic)"
-        ],
-        "Stat_Bonus": "+1 to any stat",
-        "Racial_Traits": [
-            "Darkvision",
-            "Natural resistance to toxins/disease - +1 to any saves against the corruption damage type",
-            "Can squeeze through tight spaces and evade grapples - +1 to physical checks to evade grapples and perform acrobatics",
-            "Disliked by Delverkin and Zai\u2019kir"
-        ],
-        "Compatible Background_Card_Options": [
-            "May choose **any** non-race-locked Background_Card_Option"
-        ]
-    }
-  },
 
-  "Background_Card_Options": {
-    "Brood-Shard": {
-      "Stat_Bonus": "+1 Willpower or Mental",
-      "Description": "Born from the collective consciousness of the Zai’kir hive, you are a rare individual permitted to act alone — a fragment with purpose. You may be driven by instinct, latent directive, or the terrifying freedom of independent thought.",
-      "Connection": "Broodmother Vellix, a high-ranking hive node who still whispers to you across the psionic veil when danger nears."
+    "Background_Card_Options": {
+      "Brood-Shard": {
+        "Stat_Bonus": "+1 Willpower or Mental",
+        "Description": "Born from the collective consciousness of the Zai’kir hive, you are a rare individual permitted to act alone — a fragment with purpose. You may be driven by instinct, latent directive, or the terrifying freedom of independent thought.",
+        "Connection": "Broodmother Vellix, a high-ranking hive node who still whispers to you across the psionic veil when danger nears."
+      },
+      "Delverkin_Shadow_Broker": {
+        "Stat_Bonus": "+1 Willpower or Mental",
+        "Description": "Trained in secrecy beneath the surface cities of Sersai or Dravon, you operate in networks of trade, sabotage, and surveillance. To you, knowledge is currency.",
+        "Connection": "Echo-Three, a masked Delverkin informant who controls a private network of hidden data tunnels throughout the underground."
+      },
+      "Dravonic_Warborn": {
+        "Stat_Bonus": "+1 Physical",
+        "Description": "You were raised among towering mountains and ancestral battlefields where combat is language and legacy. Your hands know war better than peace.",
+        "Connection": "Warchief Ulgar Horncleaver*, your former mentor who leads a minor Giantfolk clan and honors blood debts — especially yours."
+      },
+      "Dawnbound_Acolyte": {
+        "Stat_Bonus": "+1 Willpower or Mental",
+        "Description": "You were tutored by the Dawnbound Creed on Virella, taught to seek light in all things — even if others call it blind idealism. You believe truth shapes reality.",
+        "Connection": "Speaker Marrek Vos, a Dawnbound emissary with Coalition political clout who may protect or guide you in times of crisis."
+      },
+      "Veil-Walker_Novitiate": {
+        "Stat_Bonus": "+1 Willpower or Mental",
+        "Description": "Prophecies shaped your youth, and your teachers at the Arcanum of the Veil taught you that destiny is not chosen — only interpreted. You see signs in silence.",
+        "Connection": "Sister Naera, a cloaked mystic stationed in an embassy on Sersai who can offer cryptic insight and rare relics if approached properly."
+      },
+      "Nuvian_Tech_Apostle": {
+        "Stat_Bonus": "+1 Willpower",
+        "Description": "You are a believer in circuitry, computation, and code. Whether raised on Nuvia itself or taught by a wandering tech-priest, you see inefficiency as sin.",
+        "Connection": "Module-47, a sentient AI assistant embedded in your toolkit — loyal, sarcastic, and connected to off-grid Coalition archives."
+      },
+      "Coalition_Drifter": {
+        "Stat_Bonus": "+1 Physical or Willpower",
+        "Description": "You've never stayed anywhere long. You’ve run cargo, conned pirates, stowed away on pleasure liners, and lived by your instincts in lawless space.",
+        "Connection": "Jexa “Ratwires” Vonn, a black market fence and smuggler captain who owes you two favors and hates saying no."
+      },
+      "Novice_Mercenary": {
+        "Stat_Bonus": "+1 to any stat",
+        "Description": "You’ve recently taken up arms for credits — guarding caravans, hunting bounties, or pulling security work in sketchy zones. You’re rough around the edges but eager to prove yourself.",
+        "Connection": "Sarn Drelko, a grizzled merc commander who once vouched for you and might do it again — if you haven’t embarrassed him too much."
+      }
     },
-    "Delverkin_Shadow_Broker": {
-      "Stat_Bonus": "+1 Willpower or Mental",
-      "Description": "Trained in secrecy beneath the surface cities of Sersai or Dravon, you operate in networks of trade, sabotage, and surveillance. To you, knowledge is currency.",
-      "Connection": "Echo-Three, a masked Delverkin informant who controls a private network of hidden data tunnels throughout the underground."
-    },
-    "Dravonic_Warborn": {
-      "Stat_Bonus": "+1 Physical",
-      "Description": "You were raised among towering mountains and ancestral battlefields where combat is language and legacy. Your hands know war better than peace.",
-      "Connection": "Warchief Ulgar Horncleaver*, your former mentor who leads a minor Giantfolk clan and honors blood debts — especially yours."
-    },
-    "Dawnbound_Acolyte": {
-      "Stat_Bonus": "+1 Willpower or Mental",
-      "Description": "You were tutored by the Dawnbound Creed on Virella, taught to seek light in all things — even if others call it blind idealism. You believe truth shapes reality.",
-      "Connection": "Speaker Marrek Vos, a Dawnbound emissary with Coalition political clout who may protect or guide you in times of crisis."
-    },
-    "Veil-Walker_Novitiate": {
-      "Stat_Bonus": "+1 Willpower or Mental",
-      "Description": "Prophecies shaped your youth, and your teachers at the Arcanum of the Veil taught you that destiny is not chosen — only interpreted. You see signs in silence.",
-      "Connection": "Sister Naera, a cloaked mystic stationed in an embassy on Sersai who can offer cryptic insight and rare relics if approached properly."
-    },
-    "Nuvian_Tech_Apostle": {
-      "Stat_Bonus": "+1 Willpower",
-      "Description": "You are a believer in circuitry, computation, and code. Whether raised on Nuvia itself or taught by a wandering tech-priest, you see inefficiency as sin.",
-      "Connection": "Module-47, a sentient AI assistant embedded in your toolkit — loyal, sarcastic, and connected to off-grid Coalition archives."
-    },
-    "Coalition_Drifter": {
-      "Stat_Bonus": "+1 Physical or Willpower",
-      "Description": "You've never stayed anywhere long. You’ve run cargo, conned pirates, stowed away on pleasure liners, and lived by your instincts in lawless space.",
-      "Connection": "Jexa “Ratwires” Vonn, a black market fence and smuggler captain who owes you two favors and hates saying no."
-    },
-    "Novice_Mercenary": {
-      "Stat_Bonus": "+1 to any stat",
-      "Description": "You’ve recently taken up arms for credits — guarding caravans, hunting bounties, or pulling security work in sketchy zones. You’re rough around the edges but eager to prove yourself.",
-      "Connection": "Sarn Drelko, a grizzled merc commander who once vouched for you and might do it again — if you haven’t embarrassed him too much."
-    }
-  },
-  "Power_Cards": {
-    "The_Tempest_Warden": {
-      "Channeler": "Mael Veridun, Whisper of the Storm Veins",
-      "Theme": "Storms, lightning, wind, kinetic force",
-      "Playstyle": "Hyper-mobile controller/striker - creates momentum-based effects, suppresses enemy formations, calls down cosmic-scale storms",
-      "Level_Based_Powers": {
-        "Level_1": {
-          "Name": "Stormsense",
-          "Effect": "You gain +1 DTH (Difficulty To Hit) against ranged attacks.",
-          "Narrative": "You anticipate incoming projectiles as air pressure bends toward impact. Your body moves just before the shot lands."
-        },
-        "Level_2": {
-          "Name": "Volt Snap",
-          "Effect": "When you make any attack, you may deal 1 lightning damage to any one target within your attack's range as a free action.",
-          "Narrative": "Crackling arcs lash outward, tagging distant threats in tandem with your strike."
-        },
-        "Level_3": {
-          "Name": "Gust Step",
-          "Effect": "Once per turn, you may take an additional fast dash, moving up to your full movement again without triggering opportunity attacks.",
-          "Narrative": "A cyclone gathers at your feet and launches you forward in a blur of wind and sparks."
-        },
-        "Level_4": {
-          "Name": "Magnetic Pulse",
-          "Effect": "Once per scene, release a wave of force that pushes all creatures within 2 spaces back by 1 space. Enemies pushed into surfaces take bonus damage.",
-          "Narrative": "A low thrum erupts into a shockwave that clears your immediate area."
-        },
-        "Level_5": {
-          "Name": "Skybreaker",
-          "Effect": "Once per scene, call down a lightning bolt from the sky that strikes a 2x2 zone for 5 lightning damage.",
-          "Narrative": "Clouds part with a deafening crack, and white-blue fury crashes down on your enemies."
-        },
-        "Level_6": {
-          "Name": "Charge Sink",
-          "Effect": "When damaged by an energy or ranged attack, you may store that damage. On your next turn, add that amount as bonus lightning damage to your attack.",
-          "Narrative": "You absorb the hit with a flickering shimmer - and return it twice as loud."
-        },
-        "Level_7": {
-          "Name": "EchoPulse",
-          "Effect": "You gain an innate sense of surrounding kinetic signatures. Permanently gain +2 DTH.",
-          "Narrative": "Even without sight or sound, you feel the shift of every heartbeat and footstep around you."
-        },
-        "Level_8": {
-          "Name": "Cyclone Vault",
-          "Effect": "Once per long rest, create a spiraling cyclone that restrains up to 10 creatures within 3 spaces of you. Enemies must pass your Save DC each turn or remain restrained, up to 10 turns.",
-          "Narrative": "A towering vortex slams down, trapping enemies in a roaring prison of force winds and charged air."
-        },
-        "Level_9": {
-          "Name": "Conduction Field",
-          "Effect": "While active in combat, you radiate an electrical field. All enemies who end their turn within 2 spaces of you take 2 lightning damage.",
-          "Narrative": "The battlefield flickers with static. Sparks leap between your boots and nearby weapons - your presence becomes a hazard."
-        },
-        "Level_10": {
-          "Name": "Tempest Ascension",
-          "Effect": "Once per long rest, ascend into a godlike storm form for 2 rounds: Gain Flight and become untargetable by ranged attacks; all of your attacks deal +3 lightning damage; you may teleport once per round within 5 spaces; enemies that begin their turn within 3 spaces must pass a Save or be pushed 2 spaces and take 4 lightning damage; activate Sky Wrath once during this state to strike any 3 targets anywhere on the battlefield with lightning for 7 damage each.",
-          "Narrative": "Your body surges with elemental wrath. Wind howls, the sky fractures with bolts, and for a moment, the battlefield belongs to the storm."
+    "Power_Cards": {
+      "The_Tempest_Warden": {
+        "Channeler": "Mael Veridun, Whisper of the Storm Veins",
+        "Theme": "Storms, lightning, wind, kinetic force",
+        "Playstyle": "Hyper-mobile controller/striker - creates momentum-based effects, suppresses enemy formations, calls down cosmic-scale storms",
+        "Level_Based_Powers": {
+          "Level_1": {
+            "Name": "Stormsense",
+            "Effect": "You gain +1 DTH (Difficulty To Hit) against ranged attacks.",
+            "Narrative": "You anticipate incoming projectiles as air pressure bends toward impact. Your body moves just before the shot lands."
+          },
+          "Level_2": {
+            "Name": "Volt Snap",
+            "Effect": "When you make any attack, you may deal 1 lightning damage to any one target within your attack's range as a free action.",
+            "Narrative": "Crackling arcs lash outward, tagging distant threats in tandem with your strike."
+          },
+          "Level_3": {
+            "Name": "Gust Step",
+            "Effect": "Once per turn, you may take an additional fast dash, moving up to your full movement again without triggering opportunity attacks.",
+            "Narrative": "A cyclone gathers at your feet and launches you forward in a blur of wind and sparks."
+          },
+          "Level_4": {
+            "Name": "Magnetic Pulse",
+            "Effect": "Once per scene, release a wave of force that pushes all creatures within 2 spaces back by 1 space. Enemies pushed into surfaces take bonus damage.",
+            "Narrative": "A low thrum erupts into a shockwave that clears your immediate area."
+          },
+          "Level_5": {
+            "Name": "Skybreaker",
+            "Effect": "Once per scene, call down a lightning bolt from the sky that strikes a 2x2 zone for 5 lightning damage.",
+            "Narrative": "Clouds part with a deafening crack, and white-blue fury crashes down on your enemies."
+          },
+          "Level_6": {
+            "Name": "Charge Sink",
+            "Effect": "When damaged by an energy or ranged attack, you may store that damage. On your next turn, add that amount as bonus lightning damage to your attack.",
+            "Narrative": "You absorb the hit with a flickering shimmer - and return it twice as loud."
+          },
+          "Level_7": {
+            "Name": "EchoPulse",
+            "Effect": "You gain an innate sense of surrounding kinetic signatures. Permanently gain +2 DTH.",
+            "Narrative": "Even without sight or sound, you feel the shift of every heartbeat and footstep around you."
+          },
+          "Level_8": {
+            "Name": "Cyclone Vault",
+            "Effect": "Once per long rest, create a spiraling cyclone that restrains up to 10 creatures within 3 spaces of you. Enemies must pass your Save DC each turn or remain restrained, up to 10 turns.",
+            "Narrative": "A towering vortex slams down, trapping enemies in a roaring prison of force winds and charged air."
+          },
+          "Level_9": {
+            "Name": "Conduction Field",
+            "Effect": "While active in combat, you radiate an electrical field. All enemies who end their turn within 2 spaces of you take 2 lightning damage.",
+            "Narrative": "The battlefield flickers with static. Sparks leap between your boots and nearby weapons - your presence becomes a hazard."
+          },
+          "Level_10": {
+            "Name": "Tempest Ascension",
+            "Effect": "Once per long rest, ascend into a godlike storm form for 2 rounds: Gain Flight and become untargetable by ranged attacks; all of your attacks deal +3 lightning damage; you may teleport once per round within 5 spaces; enemies that begin their turn within 3 spaces must pass a Save or be pushed 2 spaces and take 4 lightning damage; activate Sky Wrath once during this state to strike any 3 targets anywhere on the battlefield with lightning for 7 damage each.",
+            "Narrative": "Your body surges with elemental wrath. Wind howls, the sky fractures with bolts, and for a moment, the battlefield belongs to the storm."
+          }
         }
       }
     }
