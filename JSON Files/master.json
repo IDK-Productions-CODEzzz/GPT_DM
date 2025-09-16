@@ -387,5 +387,64 @@
       "Description": "You’ve recently taken up arms for credits — guarding caravans, hunting bounties, or pulling security work in sketchy zones. You’re rough around the edges but eager to prove yourself.",
       "Connection": "Sarn Drelko, a grizzled merc commander who once vouched for you and might do it again — if you haven’t embarrassed him too much."
     }
+  },
+  "Power_Cards": {
+    "The_Tempest_Warden": {
+      "Channeler": "Mael Veridun, Whisper of the Storm Veins",
+      "Theme": "Storms, lightning, wind, kinetic force",
+      "Playstyle": "Hyper-mobile controller/striker - creates momentum-based effects, suppresses enemy formations, calls down cosmic-scale storms",
+      "Level_Based_Powers": {
+        "Level_1": {
+          "Name": "Stormsense",
+          "Effect": "You gain +1 DTH (Difficulty To Hit) against ranged attacks.",
+          "Narrative": "You anticipate incoming projectiles as air pressure bends toward impact. Your body moves just before the shot lands."
+        },
+        "Level_2": {
+          "Name": "Volt Snap",
+          "Effect": "When you make any attack, you may deal 1 lightning damage to any one target within your attack's range as a free action.",
+          "Narrative": "Crackling arcs lash outward, tagging distant threats in tandem with your strike."
+        },
+        "Level_3": {
+          "Name": "Gust Step",
+          "Effect": "Once per turn, you may take an additional fast dash, moving up to your full movement again without triggering opportunity attacks.",
+          "Narrative": "A cyclone gathers at your feet and launches you forward in a blur of wind and sparks."
+        },
+        "Level_4": {
+          "Name": "Magnetic Pulse",
+          "Effect": "Once per scene, release a wave of force that pushes all creatures within 2 spaces back by 1 space. Enemies pushed into surfaces take bonus damage.",
+          "Narrative": "A low thrum erupts into a shockwave that clears your immediate area."
+        },
+        "Level_5": {
+          "Name": "Skybreaker",
+          "Effect": "Once per scene, call down a lightning bolt from the sky that strikes a 2x2 zone for 5 lightning damage.",
+          "Narrative": "Clouds part with a deafening crack, and white-blue fury crashes down on your enemies."
+        },
+        "Level_6": {
+          "Name": "Charge Sink",
+          "Effect": "When damaged by an energy or ranged attack, you may store that damage. On your next turn, add that amount as bonus lightning damage to your attack.",
+          "Narrative": "You absorb the hit with a flickering shimmer - and return it twice as loud."
+        },
+        "Level_7": {
+          "Name": "EchoPulse",
+          "Effect": "You gain an innate sense of surrounding kinetic signatures. Permanently gain +2 DTH.",
+          "Narrative": "Even without sight or sound, you feel the shift of every heartbeat and footstep around you."
+        },
+        "Level_8": {
+          "Name": "Cyclone Vault",
+          "Effect": "Once per long rest, create a spiraling cyclone that restrains up to 10 creatures within 3 spaces of you. Enemies must pass your Save DC each turn or remain restrained, up to 10 turns.",
+          "Narrative": "A towering vortex slams down, trapping enemies in a roaring prison of force winds and charged air."
+        },
+        "Level_9": {
+          "Name": "Conduction Field",
+          "Effect": "While active in combat, you radiate an electrical field. All enemies who end their turn within 2 spaces of you take 2 lightning damage.",
+          "Narrative": "The battlefield flickers with static. Sparks leap between your boots and nearby weapons - your presence becomes a hazard."
+        },
+        "Level_10": {
+          "Name": "Tempest Ascension",
+          "Effect": "Once per long rest, ascend into a godlike storm form for 2 rounds: Gain Flight and become untargetable by ranged attacks; all of your attacks deal +3 lightning damage; you may teleport once per round within 5 spaces; enemies that begin their turn within 3 spaces must pass a Save or be pushed 2 spaces and take 4 lightning damage; activate Sky Wrath once during this state to strike any 3 targets anywhere on the battlefield with lightning for 7 damage each.",
+          "Narrative": "Your body surges with elemental wrath. Wind howls, the sky fractures with bolts, and for a moment, the battlefield belongs to the storm."
+        }
+      }
+    }
   }
 }
