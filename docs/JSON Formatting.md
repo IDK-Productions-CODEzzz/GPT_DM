@@ -1,51 +1,99 @@
 # JSON File Standards Framework
 
-Use this document as a starting point for defining JSON file standards for the project. Add or modify sections as needed.
+Use this guide whenever you create or modify JSON files for the project. Apply these rules unless a specific JSON schema explicitly overrides them.
 
 ## Structure and Formatting
 
-- Indentation: 2 spaces for each nested item.
-  - Examples:
-    - The following JSON snippit currently indents using 4 spaces:
-      ```JSON
-      {
-          "object": {
-              "sub-object": "This is a description for the sub-object."
-          }
-      }
-      ```
-      It should be changed to the following:
-      ```JSON
-      {
-        "object": {
+- Indent nested structures with exactly two spaces; do not use tabs or four-space indentation.
+- Example:
+
+  Non-compliant:
+
+  ```json
+  {
+      "object": {
           "sub-object": "This is a description for the sub-object."
-        }
       }
-      ```
+  }
+  ```
 
-## Field Conventions
+  Compliant:
 
-- Allowed Characters: Refers to characters allowed in fields. All alphanumeric characters are allowed. The only non-alphanumeric characters allowed are the underscore `_`, the hyphen `-`, and the escape character `\` where the underscore is a replacement for the space in higher level fields, and the escape character is used exclusively for unicode referencing. Characters referenced by `\u` codes must be easy to type on a standard US keyboard. Spaces and capital letters are only allowed in the lowest level fields.
-  - Examples:
-    - `’` cannot be easily typed on a US keyboard. However, the similar character `'` can. So `'` should be used instead of `’`.
-    - `Zai'kir` uses the character `'` which is not allowed. So `Zai'kir` becomes `Zai\u0027kir`.
-    - The following JSON snippit uses a space and capital letters above the lowest level to define a location object:
-      ```JSON
-      {
-        "locations": {
-          "Michigan City": {
-            "state": "Indiana, US"
-          }
-        }
+  ```json
+  {
+    "object": {
+      "sub-object": "This is a description for the sub-object."
+    }
+  }
+  ```
+
+## Field Naming and Character Rules
+
+- The term *field* refers to a JSON property name (object key).
+- Keys for objects or arrays must be lowercase `snake_case`. Replace spaces with underscores.
+- Keys for primitive values (strings, numbers, booleans) may contain spaces or uppercase letters only when that formatting is part of the canonical label and no further nesting occurs. Prefer `snake_case` when possible.
+- Allowed characters for keys are `a`–`z`, `0`–`9`, `_`, and `-`. Apostrophes and other punctuation are not permitted directly in keys. When a canonical label requires them, encode the character using a Unicode escape (for example, use `\u0027` for an apostrophe).
+- String values should use characters that are easy to type on a standard US keyboard. Replace typographic punctuation with its ASCII equivalent (for example, prefer `'` instead of `’`). Use Unicode escapes only when a required character cannot be typed directly.
+- Example:
+
+  ```json
+  {
+    "locations": {
+      "Michigan City": {
+        "state": "Indiana, US"
       }
-      ```
-      For compliance, the snippit should be changed to the following:
-      ```JSON
-      {
-        "locations": {
-          "michigan_city": {
-            "state": "Indiana, US"
-          }
-        }
+    }
+  }
+  ```
+
+  Should be rewritten as:
+
+  ```json
+  {
+    "locations": {
+      "michigan_city": {
+        "state": "Indiana, US"
       }
-      ```
+    }
+  }
+  ```
+
+- Example of handling apostrophes in keys:
+
+  ```json
+  {
+    "characters": {
+      "Zai'kir": {
+        "title": "Blade of the Dawn"
+      }
+    }
+  }
+  ```
+
+  Should be rewritten as:
+
+  ```json
+  {
+    "characters": {
+      "Zai\u0027kir": {
+        "title": "Blade of the Dawn"
+      }
+    }
+  }
+  ```
+
+- Example of replacing smart punctuation in values:
+
+  ```json
+  {
+    "flavor_text": "The blade’s edge gleams."
+  }
+  ```
+
+  Should be rewritten as:
+
+  ```json
+  {
+    "flavor_text": "The blade's edge gleams."
+  }
+  ```
